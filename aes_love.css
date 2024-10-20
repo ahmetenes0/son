@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: red
+}
+
+p{
+    padding: 1.6rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+header{
+    height: 46rem;
+}
+
+header .ae-image{
+    position: absolute;
+    background-image: url(images_aes/ilkbulusma.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.9;
+    z-index: -1;
+}
+header h1{
+    padding: 0;
+    font-family: "Playwrite GB S", cursive;
+
+}
+.iletisim{
+    border-radius: 40px;
+    display: inline-block;
+    background: darkorange;
+    color: #fff;
+    border: 1px solid red;
+    padding: 1.6rem 3.2rem;
+    margin: 0.5rem 0; 
+    transition: all 0.9s; 
+ }
+ .iletisim:hover{
+    background-color: #fff;
+    color: #333;
+ }
+
+ #section-a{
+    background-color: #fff;
+    color: #333;
+    padding: 3.2rem;
+ }
+ #section-b{
+    list-style: none;
+
+ }
+ #section-b li{
+    background: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+ }
+ .col-coltent{
+    padding: 1.5rem;
+ }
+
+footer{
+    padding: 4rem;
+    background: black;
+}
+footer a{
+    color: red;
+}
+@media screen and (min-width:800px) {
+    html{
+        font-size: 9px;
+    }
+}
+@media screen and (min-width:1200px){
+    html{
+        font-size: 11px;
+    }
+
+    
+}
